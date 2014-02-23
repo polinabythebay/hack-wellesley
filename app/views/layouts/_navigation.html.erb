@@ -1,10 +1,12 @@
 
-<%= link_to "Rails3 Bootstrap Devise Cancan", root_path, :class => 'brand' %>
-
-
-
+<%= link_to "Hack Wellesley", root_path, :class => 'brand' %>
 
 <ul class="nav">
+
+<%= render 'layouts/navigation_links' %>
+
+<% if false %>
+
   <% if user_signed_in? %>
     <li>
     <%= link_to('Logout', destroy_user_session_path, :method=>'delete') %>
@@ -29,3 +31,5 @@
     </li>
   <% end %>
 </ul>
+
+<% end %>
