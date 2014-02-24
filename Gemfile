@@ -5,7 +5,16 @@ gem 'rails', '3.2.13'
 
 #global gems 
 gem 'jquery-rails'
+
+##bootstrap and bootswatch
 gem "bootstrap-sass", "~> 2.2.2.0" #gem "bootstrap-sass", ">= 2.1.1.0"
+# twitter bootstrap css & javascript toolkit
+gem 'twitter-bootswatch-rails', '~> 3.1.1'
+# twitter bootstrap helpers gem, e.g., alerts etc...
+gem 'twitter-bootswatch-rails-helpers'
+
+gem "therubyracer", "~> 0.12.1"
+
 gem "devise", ">= 2.1.2"
 gem "cancan", ">= 1.6.8"
 gem "rolify", ">= 3.2.0"
